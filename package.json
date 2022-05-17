@@ -1,0 +1,46 @@
+{
+  "name": "voting_service",
+  "version": "1.0.0",
+  "description": "This is a voting service which enables users to vote",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammeds1992/web3-event-consumer.git"
+  },
+  "keywords": [
+    "web3",
+    "mongodb",
+    "voting",
+    "node",
+    "backend",
+    "rest",
+    "api"
+  ],
+  "author": "Shoaib Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammeds1992/web3-event-consumer/issues"
+  },
+  "homepage": "https://github.com/mohammeds1992/web3-event-consumer#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http-errors": "^2.0.0",
+    "mocha": "^9.2.2",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
